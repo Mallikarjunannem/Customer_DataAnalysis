@@ -1,0 +1,33 @@
+DAX Measures
+
+----------------------------------
+
+Total Orders = DISTINCTCOUNT(customer_shopping[invoice_no])
+
+Total Revenue = SUM(customer_shopping[Revenue])
+
+Total Products Sold = SUM(customer_shopping[quantity])
+
+Total Unique Customers = DISTINCTCOUNT(customer_shopping[customer_id])
+
+Age Group =
+SWITCH(
+    TRUE(),
+    customer_shopping[age] >= 18 && customer_shopping[age] <= 25, "18-25",
+    customer_shopping[age] >= 26 && customer_shopping[age] <= 35, "26-35",
+    customer_shopping[age] >= 36 && customer_shopping[age] <= 45, "36-45",
+    "46+"
+)
+
+Revenue =
+customer_shopping[quantity] * customer_shopping[price]
+
+Clean Gender =
+VAR g = TRIM(LOWER(customer_shopping[gender]))
+RETURN
+SWITCH(
+    TRUE(),
+    g = "male", "Male",
+    g = "female", "Female",
+    "Unknown"
+)
