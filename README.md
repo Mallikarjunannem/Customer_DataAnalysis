@@ -43,5 +43,8 @@ Improved decision-making accuracy by 25%
 Strengthened product-category strategy
 
 🔗 Dashboard 
-<img width="1292" height="725" alt="Screenshot 2025-11-18 151135" src="https://github.com/user-attachments/assets/c9046653-d12b-4d42-b3ff-ba1a3e6aec1a" />
+
+<img width="1283" height="720" alt="Screenshot 2025-12-12 173148" src="https://github.com/user-attachments/assets/f932dc1c-b03e-46c7-bcfd-e9c2ad86b7e7" />
+<img width="1291" height="716" alt="Screenshot 2025-12-12 173252" src="https://github.com/user-attachments/assets/24d5cbff-59e0-444e-ba88-513dc40f7562" />
+<img width="1281" height="722" alt="Screenshot 2025-12-12 173307" src="https://github.com/user-attachments/assets/e1c01d0f-afb5-4b77-8f55-77eba71afbcc" />
 
